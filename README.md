@@ -15,7 +15,7 @@ I included a nice UML diagram to show all the classes in the game engine and the
 NOTES:
 
 - The aim of this engine was to learn more about WebGL and JavaScript. In other words, coding games for the web.
-- I learned more about interfacing WebGL and HTML5 to setup the overall canvas for drawing and specifying behavior with JavaScript.
+- I learned to interface WebGL and HTML5 to setup the overall canvas for drawing and specifying behavior with JavaScript.
 - The best features of this engine are the extensive renderable and shader capabilities.
 - You can cast shadows from objects (ShadowCaster) to surfaces or other objects (ShadowReceiver) you specify.
 - You can draw efficiently several lights in the scene with minimal impact on performance.
