@@ -25,5 +25,5 @@ NOTES:
 - You can create several GameObjects and compose your scene from a XML file, without touching the rest of the codebase.
 - You can render fonts from a bitmap or trueType file.
 - You have a simple tile engine and the ability to create parallax effects, by specifying layers with different scrolling speeds.
-- A simple physics system was implemented with circle collision, rectangle collision (AABB) and pixel perfect collision. When a GameObject is created for a scene, you just specify which one of the collision models it has.
+- A physics system was implemented with circle collision, rectangle collision (AABB) and pixel perfect collision. When a GameObject is created for a scene, you just specify which one of the collision models it has.
 - A Camera system was implemented. You can create several cameras by leveraging the Viewport in WebGL. Cameras are GameObjects, they can be fixed or they can follow the player or other objects (position-locking). You can also apply a shaking effect to cameras.
