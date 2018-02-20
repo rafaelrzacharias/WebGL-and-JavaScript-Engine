@@ -2,7 +2,7 @@
 
 This project uses WebGL and JavaScript. There is only one library dependency, gl-matrix, which is included in the project.
 
-Since the game runs on the browser, you need to emulate a server. I recomend using NetBeans 8.2 or higher and Google Chrome.
+Since the game runs on the browser, you need to emulate a server. I recomend NetBeans 8.2 or higher and Google Chrome.
 
 Download NetBeans and install from here: https://netbeans.org/
 
@@ -19,7 +19,7 @@ NOTES:
 - The best features of this engine are the extensive renderable and shader capabilities.
 - You can cast shadows from objects (ShadowCaster) to surfaces or other objects (ShadowReceiver) you specify.
 - You can draw efficiently several lights in the scene with minimal impact on performance.
-- The light model follows the Phong Illumination Model. Renderable objects have a Material which specify properties such as ambient, specular, diffuse and emissive. When light sources shine on objects, it interacts with those properties and determines the illumination.
+- The light model follows the Phong Illumination Model. Renderable objects have a Material which specify properties such as ambient, specular, diffuse and emissive. When a light source shine on an object, it interacts with its properties and determines the illumination.
 - Lights can be speficied based on their nature (Ambient, OmniDirectional, Spot) and customize things such as light color, intensity, direction, outer and inner cone angles, fadeout.
 - Objects all inherit from Renderable and this makes it easy for all GameObjects to support shader effects.
 - You can create several GameObjects and compose your scene from a XML file, without touching the rest of the codebase.
