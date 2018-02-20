@@ -20,8 +20,8 @@ NOTES:
 - You can cast shadows from objects (ShadowCaster) to surfaces or other objects (ShadowReceiver) you specify.
 - You can draw efficiently several lights in the scene with minimal impact on performance.
 - The light model follows the Phong Illumination Model. Renderable objects have a Material which specify properties such as ambient, specular, diffuse and emissive. When a light source shine on an object, it interacts with its properties and determines the illumination.
-- Lights can be speficied based on their nature (Ambient, OmniDirectional, Spot) and customize things such as light color, intensity, direction, outer and inner cone angles, fadeout.
-- Objects all inherit from Renderable and this makes it easy for all GameObjects to support shader effects.
+- Lights can be created based on their nature (Ambient, OmniDirectional, Spot) and customize things such as light color, intensity, direction, outer and inner cone angles, fadeout.
+- GameObjects all inherit from Renderable and this makes it easy for all GameObjects to support shader effects.
 - You can create several GameObjects and compose your scene from a XML file, without touching the rest of the codebase.
 - You can render fonts from a bitmap or trueType file.
 - You have a simple tile engine and the ability to create parallax effects, by specifying layers with different scrolling speeds.
